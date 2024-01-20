@@ -1,0 +1,30 @@
+{
+  "name": "mdparser",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@adobe/helix-html-pipeline": "^5.4.4",
+    "@adobe/helix-html2md": "github:adobe/helix-html2md",
+    "@adobe/helix-md2docx": "^2.1.36",
+    "jsdom": "^23.0.0",
+    "mammoth": "^1.6.0",
+    "mdast-util-from-markdown": "^2.0.0",
+    "milo-md2docx": "^1.7.0",
+    "parsemarkdown": "github:adobecom/milo-parse-markdown",
+    "prettier": "^3.1.1",
+    "rehype-stringify": "^10.0.0",
+    "remark-parse": "^11.0.0",
+    "remark-rehype": "^11.0.0",
+    "unified": "^11.0.4",
+    "unified-stream": "^3.0.0",
+    "xlsx": "^0.18.5"
+  }
+}
